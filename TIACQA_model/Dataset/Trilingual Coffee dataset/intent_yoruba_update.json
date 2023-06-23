@@ -1,0 +1,135 @@
+{
+    "intents": [
+      {
+        "tag": "ikini",
+        "patterns": [
+          "e kaaro",
+          "e kaasan",
+          "Bawo ni o se wa",
+          "Ṣe ẹnikẹni wa nibẹ?",
+          "Pẹlẹ o",
+          "Ojo dada"
+        ],
+        "responses": [ 
+          "Pẹlẹ o o ṣeun fun àbẹwò",
+          "Kabiyesi, kini MO le ṣe fun ọ?",
+          "Kabiyesi, bawo ni MO ṣe le ṣe iranlọwọ?"
+        ]
+      },
+      {
+        "tag": "O dabọ",
+        "patterns": ["O dabọ", 
+        "Ma a ri e laipe", 
+        "ODIGBA kan na"],
+        "responses": [
+          "Wo o nigbamii, o ṣeun fun àbẹwò",
+          "Eni a san e o",
+          "Kaabo! Pada lẹẹkansi laipe."
+        ]
+      },
+      {
+        "tag": "idupẹ",
+        "patterns": ["O ṣeun", "e dupe", "Iyẹn ṣe iranlọwọ", "O ṣeun lọpọlọpọ!"],
+        "responses": ["Idunnu lati ṣe iranlọwọ", "Nigbakugba", "O gbadun mọ mi"]
+      },
+      {
+        "tag": "awọn nkan",
+        "patterns": [
+          "Awọn nkan wo ni o ni?",
+          "Iru awọn nkan wo ni o wa?",
+          "Kini o n ta?"
+        ],
+        "responses": [
+          "A ta kofi ati tii",
+          "A ni kofi ati tii"
+        ]
+      },
+      {
+        "tag": "ounje",
+        "patterns": [
+          "onje anfani ti kofi?",
+          "bawo ni kofi ṣe ṣe anfani fun ara wa?"
+        ],
+        "responses": [
+          "Kofi jẹ orisun ti awọn eroja, pẹlu awọn vitamin B, potasiomu, ati riboflavin",
+          "o ni nọmba awọn agbo ogun phenolic ti o wulo, gẹgẹbi chlorogenic acid ati caffeic acid, \n eyiti o ni awọn ohun-ini antioxidant",
+          "kọfí tún lè ṣèrànwọ́ láti dín ewu irú àtọ̀gbẹ 2, àrùn Alzheimer, àti àwọn irú ẹ̀jẹ̀ kan kù",
+          "kofi le tun sise bi a ìwọnba yanilenu suppressant ati ki o le ran lati se alekun agbara awọn ipele"
+        ]
+      },
+      {
+        "tag": "igbaradi akoko",
+        "patterns": [
+          "igba melo ni kofi gba lati ṣe?",
+          "Kini akoko akoko lati ṣeto mimu kọfi?"
+        ],
+        "responses": [
+          "Kofi ni gbogbogbo gba laarin iṣẹju mẹta si iṣẹju marun lati pọnti, \n da lori ẹrọ ati iru kọfi ti n ṣe. Fun espresso tabi kọfi tẹ Faranse, \n o le gba to gun nitori akoko olubasọrọ ti o pọ si pẹlu omi. \n Ni afikun, iye ti kofi ti n ṣe le tun ni ipa lori akoko fifun"
+        ]
+      },
+      {
+        "tag": "iru ile",
+        "patterns": [
+          "Kini iru ile ti o dara julọ fun ọgbin kofi?",
+          "so fun mi ti o dara ju potting ile fun kofi ọgbin?",
+          "kofi ọgbin ile mix?"
+        ],
+        "responses": [
+          "Awọn ohun ọgbin kofi fẹran ile ekikan ti o ni omi daradara pẹlu pH laarin 5.0 ati 6.0",
+          "Apapọ ikoko ti a pinnu fun awọn ohun ọgbin ifẹ-acid yoo dara julọ",
+          "O le ṣẹda ilẹ ikoko ti ara rẹ nipa dapọ apakan Eésan Mossi, \n apakan compost, ati apakan kan perlite tabi vermiculite. Rii daju pe o lo ọpọlọpọ \n awọn ohun elo Organic lati rii daju pe ile rẹ jẹ ọlọrọ-ounjẹ ati pe o ni idominugere to dara julọ"
+        ]
+      },
+      {
+        "tag": "orisi",
+        "patterns": [
+          "Kini ipele kofi ti o ni?",
+          "Iru kofi wo ni o wa?",
+          "Iru tii wo ni o n ta?"
+        ],
+        "responses": [
+          "A ni Arabica iru kofi ti o jẹ julọ gbajumo iru ti kofi ati ki o jẹ mọ fun awọn oniwe-dan ati mellow adun",
+          "Adun kofi wa jẹ Arabica", 
+          "a ta mejeeji dudu ati tii alawọ ewe"
+        ]
+      },
+      {
+        "tag": "owo sisan",
+        "patterns": [
+          "Ṣe o gba awọn kaadi kirẹditi?",
+          "Se e ngba Masita Kaadi?",
+          "Ṣe Mo le sanwo pẹlu Paypal?",
+          "Ṣe o jẹ owo nikan?"
+        ],
+        "responses": [
+          "A gba VISA, Mastercard ati Paypal",
+          "A gba julọ pataki awọn kaadi kirẹditi, ati Paypal"
+        ]
+      },
+      {
+        "tag": "ifijiṣẹ",
+        "patterns": [
+          "Igba melo ni ifijiṣẹ gba?",
+          "Igba melo ni gbigbe n gba?",
+          "Nigbawo ni MO gba ifijiṣẹ mi?"
+        ],
+        "responses": [
+          "Ifijiṣẹ gba awọn ọjọ 2-4",
+          "Sowo gba to 2-4 ọjọ"
+        ]
+      },
+      {
+        "tag": "apanilẹrin",
+        "patterns": [
+          "Sọ fun mi awada!",
+          "So fun mi nkankan apanilẹrin",
+          "Ṣe o mọ awada kan?"
+        ],
+        "responses": [
+          "Kini idi ti hipster fi sun ẹnu rẹ? O mu kọfi ṣaaju ki o to tutu.",
+          "Kini efon sọ nigbati ọmọ rẹ lọ si kọlẹji? Bison."
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,3 @@
+#url for banking77 dataset
+from datasets import load_dataset
+dataset = load_dataset("banking77")

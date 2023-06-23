@@ -1,0 +1,279 @@
+{
+    "intents": [
+      {
+        "tag": "shubhakaamana",
+        "patterns": [
+           "namaste",
+           "are",
+          "kya haal hai",
+           "kya vahaan koee hai?",
+          "abhivaadan!",
+           "achchha din"
+        ],
+        "responses": [
+           "namaste, padhaarane ke lie dhanyavaad",
+           "namaste, main aapake lie kya kar sakata hoon?",
+           "namaste, main kaise madad kar sakata hoon?"
+        ]
+      },
+      {
+        "tag": "शुभकामना",
+        "patterns": [
+          "नमस्ते",
+          "अरे", 
+          "क्या हाल है", 
+          "क्या वहां कोई है?", 
+          "अभिवादन!", 
+          "अच्छा दिन"
+        ],
+        "responses": [
+          "अरे",  
+          "नमस्ते, पधारने के लिए धन्यवाद",
+          "नमस्ते, मैं आपके लिए क्या कर सकता हूँ?", 
+          "नमस्ते, मैं कैसे मदद कर सकता हूँ?"
+        ]
+      },
+      {
+        "tag": "alavida",
+        "patterns": [ "abhee ke lie baay", 
+         "baad mein milate hain", 
+         "alavida"],
+        "responses": [
+           "baad mein milate hain, aane ke lie dhanyavaad",
+           "achchha din bhee ho",
+           "alavida! phir se jaldee aao"
+        ]
+      },
+
+      {
+        "tag": "अलविदा",
+        "patterns": [
+          "अभी के लिए बाय", 
+         "बाद में मिलते हैं", 
+         "अलविदा"
+        ],
+        "responses": [
+          "बाद में मिलते हैं, आने के लिए धन्यवाद",
+          "अच्छा दिन भी हो", 
+          "अलविदा! फिर से जल्दी आओ।"
+        ]
+      },
+      {
+        "tag": "shukriya",
+        "patterns": ["dhanyavaad",
+         "aapako dhanyavaad",
+          "yah madadagaar hai",  
+          "bahut-bahut dhanyavaad!"],
+        "responses": [ "madad karane mein khushee hogee!", 
+         "kisee bhee samay!", 
+          "mera saubhaagy"]
+      },
+      {
+      "tag": "शुक्रिया",
+        "patterns": ["धन्यवाद",  
+        "आपको धन्यवाद", 
+         "यह मददगार है", 
+          "बहुत-बहुत धन्यवाद!"],
+        "responses": ["मदद करने में खुशी होगी!",
+          "किसी भी समय!", 
+           "मेरा सौभाग्य"
+          ]
+      },
+      {
+        "tag": "saamaan",
+        "patterns": [
+           "aapake paas kaun see vastuen hain?",
+           "vahaan kis prakaar kee vastuen hain?",
+           "tum kya bechate ho?"
+        ],
+        "responses": [
+           "ham kophee aur chaay bechate hain",
+           "hamaare paas kophee aur chaay hai"
+        ]
+      },
+      {
+        "tag": "सामान",
+        "patterns": [
+          "आपके पास कौन सी वस्तुएं हैं?", 
+          "वहां किस प्रकार की वस्तुएं हैं?", 
+          "तुम क्या बेचते हो?"
+        ],
+        "responses": [
+          "हम कॉफी और चाय बेचते हैं", 
+          "हमारे पास कॉफी और चाय है"
+        ]
+      },
+      {
+        "tag": "poshan", 
+        "patterns": [
+           "kophee ke poshan sambandhee laabh?",
+          "kophee hamaare shareer ko kaise laabh pahunchaatee hai?"
+        ],
+        "responses": [
+ "kophee poshak tatvon ka ek srot hai, jisamen bee vitaamin, poteshiyam aur raibophlevin shaamil hain",
+"isamen kaee upayogee phenolik yaugik hote hain, jaise klorojenik esid aur kaiphik esid, jinamen enteeokseedent gun hote hain", 
+  "kophee taip 2 madhumeh, aljaimar rog aur kuchh prakaar ke kainsar ke jokhim ko kam karane mein bhee madad kar sakatee hai", 
+   "kophee halke bhookh damanakaaree ke roop mein bhee kaary kar sakatee hai \n aur oorja ke star ko badhaava dene mein madad kar sakatee hai"
+        ]
+      },
+      {
+        "tag": "पोषण", 
+        "patterns": [
+          "कॉफी के पोषण संबंधी लाभ?", 
+          "कॉफी हमारे शरीर को कैसे लाभ पहुंचाती है?"
+        ],
+        "responses": [
+          "कॉफी पोषक तत्वों का एक स्रोत है, जिसमें बी विटामिन, पोटेशियम और राइबोफ्लेविन शामिल हैं", 
+          "इसमें कई उपयोगी फेनोलिक यौगिक होते हैं, जैसे क्लोरोजेनिक एसिड और कैफिक एसिड, जिनमें एंटीऑक्सीडेंट गुण होते हैं",
+          "कॉफी टाइप 2 मधुमेह, अल्जाइमर रोग और कुछ प्रकार के कैंसर के जोखिम को कम करने में भी मदद कर सकती है", 
+          "कॉफी हल्के भूख दमनकारी के रूप में भी कार्य कर सकती है और ऊर्जा के स्तर को बढ़ावा देने में मदद कर सकती है"
+          
+        ]
+      },
+      {
+        "tag": "taiyaaree ka samay",
+        "patterns": [
+           "kophee banaane mein kitana samay lagata hai?",
+           "kophee drink taiyaar karane kee samay seema kya hai?"
+        ],
+        "responses": ["kophee ko banaane mein aam taur par teen se paanch minat ka samay lagata hai, \n yah masheen aur kophee ke prakaar par nirbhar karata hai. espreso ya phrench pres kophee ke lie,\n paanee ke saath sampark samay badhane ke kaaran isamen adhik samay lag sakata hai. \n isake atirikt, taiyaar kee ja rahee kophee kee maatra bhee pakane ke samay ko prabhaavit kar sakatee hai"
+        ]
+      },
+      {
+        "tag": "तैयारी का समय",
+        "patterns": [
+          "कॉफी बनाने में कितना समय लगता है?", 
+          "कॉफी ड्रिंक तैयार करने की समय सीमा क्या है?"
+        ],
+        "responses": [
+          "कॉफी को बनाने में आम तौर पर तीन से पांच मिनट का समय लगता है, यह मशीन और कॉफी के प्रकार पर निर्भर करता है। \n एस्प्रेसो या फ्रेंच प्रेस कॉफी के लिए,  पानी के साथ संपर्क समय बढ़ने के कारण इसमें अधिक समय लग सकता है। इसके अतिरिक्त, \n तैयार की जा रही कॉफी की मात्रा भी पकने के समय को प्रभावित कर सकती है"
+        ]
+      },
+      {
+        "tag": "mittee ke prakaar",
+        "patterns": [
+          "kophee ke paudhe ke lie aadarsh mittee ka prakaar kya hai?",
+           "mujhe kophee ke paudhe ke lie sabase achchhee gamale vaalee mittee bataen?",
+           "kophee ke paudhe kee mittee ka mishran?"
+        ],
+        "responses": [
+          "kophee ke paudhe 5.0 aur 6.0 ke beech peeech vaalee achchhee jal nikaasee vaalee amleey mittee pasand karate hain",
+          "esid-pyaar karane vaale paudhon ke lie poting miks aadarsh hoga",  
+          "aap ek bhaag peet mos, ek bhaag khaad, aur ek bhaag parlait ya varmeekyoolait milaakar apanee \n poting mittee bana sakate hain. yah sunishchit karane ke lie ki aapakee mittee poshak tatvon se bharapoor \n hai aur usamen utkrsht jal nikaasee hai, bharapoor maatra \n mein kaarbanik padaarthon ka upayog karana sunishchit karen"
+        ]
+      },
+      {
+        "tag": "मिट्टी के प्रकार",
+        "patterns": [
+          "कॉफी के पौधे के लिए आदर्श मिट्टी का प्रकार क्या है?",
+          "मुझे कॉफी के पौधे के लिए सबसे अच्छी गमले वाली मिट्टी बताएं?", 
+          "कॉफी के पौधे की मिट्टी का मिश्रण?"
+        ],
+        "responses": [
+          "कॉफी के पौधे 5.0 और 6.0 के बीच पीएच वाली अच्छी जल निकासी वाली अम्लीय मिट्टी पसंद करते हैं", 
+          "एसिड-प्यार करने वाले पौधों के लिए पॉटिंग मिक्स आदर्श होगा"
+        ]
+      },
+      {
+        "tag": "prakaar",
+        "patterns": [
+          "aapake paas kis gred kee kophee hai?",
+         "vahaan kis prakaar kee kophee hain?",
+           "aap kis tarah kee chaay bechate hain?"
+        ],
+        "responses": [
+  "hamaare paas arebika prakaar kee kophee hai jo sabase lokapriy prakaar \n kee kophee hai aur apane chikane aur madhur svaad ke lie jaanee jaatee hai",
+          "hamaaree kophee ka svaad arebika hai",
+           "ham kaalee aur haree chaay donon bechate hain"
+        ]
+      },
+      {
+        "tag": "प्रकार",
+        "patterns": [
+          "आपके पास किस ग्रेड की कॉफी है?", 
+          "वहां किस प्रकार की कॉफी हैं?", 
+          "आप किस तरह की चाय बेचते हैं?"
+        ],
+        "responses": [
+          "हमारे पास अरेबिका प्रकार की कॉफी है जो सबसे लोकप्रिय प्रकार की कॉफी है और अपने चिकने और मधुर स्वाद के लिए जानी जाती है", 
+          "हमारी कॉफी का स्वाद अरेबिका है", 
+           "हम काली और हरी चाय दोनों बेचते हैं"
+        ]
+      },
+      {
+        "tag": "bhugataan", 
+        "patterns": [
+         "kya aap kredit kaard lete hain?",
+          "kya aap mastairchard sveekaar karate hain?",
+           "kya main pepail ke saath bhugataan kar sakata hoon?",
+           "kya aap keval nakad hain?"
+        ],
+        "responses": [
+           "ham veeza, maastarakaard aur pepail sveekaar karate hain",
+          "ham adhikaansh pramukh kredit kaard aur pepail sveekaar karate hain"
+        ]
+      },
+      {
+        "tag": "भुगतान", 
+        "patterns": [
+          "क्या आप क्रेडिट कार्ड लेते हैं?",
+          "क्या आप MasterCard स्वीकार करते हैं?", 
+          "क्या मैं पेपैल के साथ भुगतान कर सकता हूँ?", 
+          "क्या आप केवल नकद हैं?"
+        ],
+        "responses": [
+          "हम वीज़ा, मास्टरकार्ड और पेपैल स्वीकार करते हैं",
+          "हम अधिकांश प्रमुख क्रेडिट कार्ड और पेपैल स्वीकार करते हैं"
+        ]
+      },
+      {
+        "tag": "vitaran",
+        "patterns": [
+           "dileevaree mein kitana samay lagata hai?",
+          "shiping mein kitana samay lagata hai?",
+           "meree dileevaree kab hogee?"
+        ],
+        "responses": [
+           "dileevaree mein 2-4 din lagate hain",
+           "shiping mein 2-4 din lagate hain"
+        ]
+      },
+      {
+        "tag": "वितरण",
+        "patterns": [
+          "डिलीवरी में कितना समय लगता है?", 
+          "शिपिंग में कितना समय लगता है?", 
+          "मेरी डिलीवरी कब होगी?"
+        ],
+        "responses": [
+          "डिलीवरी में 2-4 दिन लगते हैं", 
+          "शिपिंग में 2-4 दिन लगते हैं"
+        ]
+      },
+      {
+        "tag": "majedaar",
+        "patterns": [
+           "mujhe ek jok batao!",
+          "mujhe kuchh mazedaar batao!",
+          "kya aap ek chutakula jaanate hain"
+        ],
+        "responses": [
+  "hipstar ne apana munh kyon jalaaya? kophee thandee hone se pahale hee usane pee lee.",
+           "jab usaka beta kolej ke lie nikala to bhains ne kya kaha? baisan."
+        ]
+      },
+      {
+        "tag": "मजेदार",
+        "patterns": [
+          "मुझे एक जोक बताओ!",
+          "मुझे कुछ मज़ेदार बताओ!", 
+          "क्या आप एक चुटकुला जानते हैं?"
+        ],
+        "responses": [
+          "हिप्स्टर ने अपना मुँह क्यों जलाया? कॉफी ठंडी होने से पहले ही उसने पी ली।", 
+          "जब उसका बेटा कॉलेज के लिए निकला तो भैंस ने क्या कहा? बाइसन।"
+        ]
+      }
+    ]
+  }
+  
